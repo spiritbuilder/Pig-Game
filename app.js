@@ -44,9 +44,9 @@ console.log(scores);
 roundScore=0;
 document.getElementById("current-"+activePlayer).textContent=roundScore;
   document.getElementById("score-"+activePlayer).textContent= scores[activePlayer];
-if(scores[activePlayer]>=10){
+if(scores[activePlayer]>=200){
     let playername= activePlayer+1;
-    document.querySelector("#name-"+activePlayer).textContent= "PLAYER "+playername+" WINS!!!";
+    document.querySelector("#name-"+activePlayer).textContent= "PLAYER "+playername+" WINS!";
     document.querySelector(".btn-roll").style.display="none";
 }else{nextplayer();}
   
