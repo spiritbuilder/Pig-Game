@@ -1,26 +1,28 @@
 *{
-    margin: 0;
-    padding:0;
+    
     box-sizing: border-box;
 }
+
 .clearfix::after{
     content:"";
     display: table;
     clear: both;
 }
+
 body{
-    background-image: url(tesla2.jpg);
-    background-color: white;
-    background-position: center;
+    background-image: url(tesla1.jpg); 
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
     position: relative;
     color: #555;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .wrapper{
-    width: 80%;
-    margin-top: 5%;
+    width: 75%;
     
+    margin-top: 30%;
     margin: auto;
     
     background-color: white;
@@ -53,7 +55,7 @@ body{
     margin-bottom: 130px;
 }
 
-.active{background-color: #f7f7f7;}
+.active{background-color: #bbbbbb;}
 .active.player-name{ font-weight:300;}
 .active > span{
     color: #E84D4D;
